@@ -1,77 +1,68 @@
-.box {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border-radius: 20px;
-  width: 890px;
-  height: 850px;
+.container {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 800px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-
-  font-family: "Sunflower", sans-serif;
-  font-weight: 300;
-  font-style: normal;
 }
-
-#favorite,
-#teamwork {
-  background-color: rgb(255, 191, 0);
+.name,
+.favoriate {
+  background-color: rgba(255, 191, 0);
   border-radius: 20px;
-
-  /* border: center; */
-  width: 150px;
-  padding: 8px;
+  width: 500px;
+  padding: 3px;
   align-items: center;
   display: flex;
   flex-direction: column;
   margin: 10px;
   font-size: 20px;
-  color: black;
+  position: relative;
+  top: -50px;
+  left: 10px;
 }
-
+.teamwork {
+  background-color: rgb(255, 218, 151);
+  border-radius: 20px;
+  width: 500px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+  left: 10px;
+}
 #image {
   width: 400px;
   height: 400px;
   align-items: center;
   display: flex;
+  flex-direction: column;
   position: relative;
   top: -50px;
-  left: 180px;
-  text-shadow: 20px;
+  left: 80px;
 }
-
-#closeBtn {
-  padding: 10px;
-  margin: 20px;
-  cursor: pointer;
-}
-
-#closeBtn:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-.container {
-  align-items: center;
+.closebtn {
+  background-color: rgb(252, 185, 61);
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
-  width: 800px;
-  height: 300px;
-}
-
-.sub1,
-.sub2 {
-  font-size: 25px;
-}
-
-#closeBtn {
-  align-items: center;
-  border-radius: 20px;
-  background-color: rgb(255, 187, 0);
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   font-size: 18px;
-  align-items: center;
   margin-left: auto;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  padding: 27px 15px;
+}
+.closebtn:hover {
+  background-color: rgb(255, 255, 255);
+  border: 10px solid black;
 }
