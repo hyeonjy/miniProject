@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+.logo {
+    width: 700px;
+    height: 700px;
+    margin-left: 130px;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner_wrapper {
+    display: flex;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 30px;
+
+    font-family: "Stylish", serif;
+    font-size: 120px;
+    text-shadow: 3px 4px 5px gray;
+}
+
+.jo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 600px;
+    right: 1000px;
+    font-size: 120px;
+    height: 150px;
+    width: 200px;
+}
+
+.title {
+    height: 150px;
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 150px;
+    color: #dddddd
+    ;
+
+}
+
+.kawaii {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 40px;
+    color: #989898
+}
