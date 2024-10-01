@@ -2,8 +2,15 @@
 
 /* 각자 css 폴더에서 css를 아래처럼 추가(import)해서 넣어주세요 */
 @import "modal1.css";
+
 @import "modal2.css";
 @import "visitor.css";
+
+@import "banner.css";
+@import "./introduce.css";
+@import "pmjmodal.css";
+
+
 * {
   box-sizing: border-box;
   margin: 0;

@@ -4,7 +4,7 @@
 .logo {
     width: 700px;
     height: 700px;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .banner {
@@ -42,15 +42,18 @@
 }
 
 .title {
+    position: relative;
+    top: 250px;
     height: 150px;
     font-family: "Do Hyeon", sans-serif;
     font-size: 150px;
-    color: #dddddd
-    ;
+    color: #dddddd;
 
 }
 
 .kawaii {
+    position: relative;
+    top: 240px;
     font-family: "Black Han Sans", sans-serif;
     font-size: 40px;
     color: #989898
