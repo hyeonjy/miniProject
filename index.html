@@ -35,25 +35,52 @@
         </div>
 
         <!-- 모달 2번째-->
-        <div class="container hidden" data-index="2">
+        <div class="container hidden" data-index="2"></div>
+        <div class="box">
           <div class="modal-content">
+            <div id="close">
+              <!-- 부트스트랩에서 버튼 가져왔어요! -->
+              <button type="button" class="btn btn-light" id="xBtn">CLOSE</button>
+            </div>
             <image id=image
-              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0kBAO%2FbtsJSHIsi1r%2FQ8EF9kPp1KbNdgL3kmhLG0%2Fimg.jpg">
+              src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbODPjh%2FbtsJSpuwNzn%2FTEfuoL2InZJUgTn5utix2k%2Fimg.png">
             </image>
             <h1>최한솔(ENTJ)</h1>
             <div id="favorite">좋아하는 것</div>
-            캠핑, 고양이, 등산, 러닝, 코딩, 술
+            <div class="sub1">
+              캠핑, 고양이, 등산, 러닝, 코딩, 술</div>
+
             <div id="teamwork">협력 스타일</div>
-            깨알처럼 공유하고 서로서로 도와주며 개개인이 서로를 이끌 줄 아는 마인드!<br>
-            스몰토크로 가볍게 긴장 풀 줄 아는 분위기 메이커!<br>
-            뒤처진 팀원에게 도움이 될 수 있도록 손을 내밀 줄 아는 팀원!
+            <div class="sub2">깨알처럼 공유하고 서로서로 도와주며 개개인이 서로를 이끌 줄 아는 마인드!<br>
+              스몰토크로 가볍게 긴장 풀 줄 아는 분위기 메이커!<br>
+              뒤처진 팀원에게 도움이 될 수 있도록 손을 내밀 줄 아는 팀원!</div>
           </div>
         </div>
+      </div>
+      <h3>방명록</h3>
+      <div id="list"></div>
+      <hr>
+      <form name="f">
+        <table id="t1">
+          <tr>
+            <th></th>
+            <td><input type="text" name="writer" id="writer" placeholder="닉네임"></td>
+          </tr>
+          <tr>
+            <th></th>
+            <td><input type="text" name="content" id="content" placeholder="내용을 입력해주세요."></td>
+            <td><button type="button" class="btn btn-warning" onclick="a()">등록하기</button></td>
+          </tr>
+          <tr>
+          </tr>
 
-        <!-- 각각의 js 이름 스크립트에 넣기(아래처럼) -->
-        <script src="js/modal.js"></script>
+        </table>
+      </form>
+    </div>
+    <!-- 각각의 js 이름 스크립트에 넣기(아래처럼) -->
+    <script src="js/modal.js"></script>
 
-        <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,0 +1,68 @@
+.body {
+    align-items: center;
+}
+
+#t1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+
+}
+
+#content {
+    width: 800px;
+    height: 100px;
+    border-color: rgb(170, 170, 170);
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#writer {
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn-warning {
+    position: relative;
+    width: 100px;
+    height: 80px;
+}
+
+.btn-warning:hover {
+    color: aliceblue;
+    border: 1px;
+}
+
+#list {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 100px;
+    color: gray;
+}
+
+h3 {
+    margin: 100px;
+    font-size: 50px;
+}
+
+.newDiv {
+    position: relative;
+    width: 100px;
+    height: 80px;
+}
+
+#DBtn,
+#UBtn {
+    float: right;
+    margin: 5px;
+    padding: 5px;
+}
+
