@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap");
 
 .logo {
+<<<<<<< HEAD
   margin-right: 30px;
 }
 
@@ -23,6 +24,29 @@
   font-family: "Stylish", serif;
   font-size: 60px;
   text-shadow: 3px 4px 5px gray;
+=======
+    margin-right: 30px;
+}
+
+.banner {
+    display: flex;
+    width: 1100px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.banner_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.introduce {
+    font-family: "Stylish", serif;
+    font-size: 60px;
+    text-shadow: 3px 4px 5px gray;
+>>>>>>> bc83fef271e52387beb21148efe79c17a889b6f2
 }
 
 .title {
