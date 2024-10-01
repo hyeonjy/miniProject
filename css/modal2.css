@@ -1,5 +1,3 @@
-
-
 .box {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 20px;
@@ -9,14 +7,18 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    color: white;
+
+    font-family: "Sunflower", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 
 }
 
 #favorite,
 #teamwork {
-    background-color: rgb(252, 229, 157);
+    background-color: rgb(255, 191, 0);
     border-radius: 20px;
+
     /* border: center; */
     width: 150px;
     padding: 8px;
@@ -38,7 +40,8 @@
     display: flex;
     position: relative;
     top: -50px;
-    left: 250px;
+    left: 180px;
+    text-shadow: 20px;
 }
 
 #xBtn {
@@ -48,7 +51,7 @@
 }
 
 #xBtn:hover {
-    background-color: rgb(250, 183, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -68,7 +71,7 @@
 #xBtn {
     align-items: center;
     border-radius: 20px;
-    background-color: rgb(252, 229, 157);
+    background-color: rgb(255, 187, 0);
     display: flex;
     flex-direction: column;
     width: 100px;
