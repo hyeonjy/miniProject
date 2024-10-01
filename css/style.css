@@ -9,12 +9,9 @@
 @import "banner.css";
 @import "./introduce.css";
 @import "pmjmodal.css";
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
-=======
-@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
 
->>>>>>> bc83fef271e52387beb21148efe79c17a889b6f2
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
 
 * {
   box-sizing: border-box;
