@@ -4,6 +4,7 @@
 @import "modal1.css";
 @import "banner.css";
 @import "./introduce.css";
+@import "pmjmodal.css";
 
 * {
   box-sizing: border-box;
