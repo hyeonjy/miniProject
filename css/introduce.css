@@ -1,0 +1,61 @@
+.introduce-wrapper {
+    margin: 30px 0px 0px 30px
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.wrapper-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.card-wrapper {
+    width: 1100px;
+}
+
+.member-card {
+    padding: 20px;
+    width: 340px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.member-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.user-image {
+    padding: 0px 10px 20px 0px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-content{
+    width: 100%;
+    padding-right: 10px;
+}
+
+.user-mbti {
+    font-weight: 600;
+    color: gray;
+}
+
+.morebtn {
+    border: none;
+    background-color: rgb(157, 209, 243);
+    border-radius: 5px;
+    font-weight: bold;
+}
