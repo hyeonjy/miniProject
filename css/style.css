@@ -9,7 +9,7 @@
 @import "banner.css";
 @import "./introduce.css";
 @import "pmjmodal.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .hidden {
