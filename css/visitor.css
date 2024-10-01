@@ -5,9 +5,9 @@
 #t1 {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 500px;
-    height: 200px;
+    height: 200px; 
     margin: 0 auto;
     border-radius: 30px;
 
