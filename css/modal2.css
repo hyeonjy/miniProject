@@ -1,46 +1,60 @@
+body {
+    background-color: rgb(65, 109, 29);
+    background-image: url("https://postfiles.pstatic.net/MjAyNDA4MDZfMjg3/MDAxNzIyOTA2MjAzNDYx.tNaFQtT18UfNNVGnHxD307N1GreLthQutyCwFFfL2Ewg.SXwB-sycgxF-mClnYT7P1XpgXPsD-Jgeaqbqy4uDnYsg.PNG/20240805133642.png?type=w966");
+    background-size: cover;
+    /* opacity:px; */
+
+}
+
 .box {
-    background-color: rgb(197, 197, 197);
-    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 20px;
-    width: 990px;
-    height: 750px;
+    width: 890px;
+    height: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    color: white;
+
 }
 
 #favorite,
 #teamwork {
     background-color: rgb(252, 229, 157);
     border-radius: 20px;
+    /* border: center; */
     width: 150px;
-    padding: 4px;
+    padding: 8px;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 10px;
     font-size: 20px;
+    color: black;
+
 }
 
 
 
 #image {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     align-items: center;
     display: flex;
-
+    position: relative;
+    top: -50px;
+    left: 250px;
 }
 
 #xBtn {
-    border-radius: 50px;
     padding: 10px;
     margin: 20px;
+    cursor: pointer
 }
 
 #xBtn:hover {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(250, 183, 0);
 }
 
 .container {
@@ -49,9 +63,10 @@
     flex-direction: column;
     width: 800px;
     height: 300px;
+
 }
 
-.sub1, 
+.sub1,
 .sub2 {
     font-size: 25px;
 }
@@ -59,7 +74,7 @@
 #xBtn {
     align-items: center;
     border-radius: 20px;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(252, 229, 157);
     display: flex;
     flex-direction: column;
     width: 100px;
