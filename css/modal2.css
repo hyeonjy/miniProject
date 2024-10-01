@@ -1,0 +1,22 @@
+#favorite{
+    background-color: rgb(252, 229, 157);
+    border-radius: 20px;
+    width: 100px;
+    padding: 4px;
+    align-items: center;
+    margin: 5px;
+}
+
+#teamwork{
+    background-color: rgb(252, 229, 157);
+    border-radius: 20px;
+    width: 100px;
+    padding: 4px;
+    align-items: center;
+    margin: 5px;
+}
+
+#image{
+    width: 100px;
+    height: 100px;
+}
