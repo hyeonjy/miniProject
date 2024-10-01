@@ -1,3 +1,28 @@
+const text = ["더 나은 개발자가 되기 위해,", "꾸준히 노력하는 개발자"];
+const speed = 200;
+let textIndex = 0;
+let letterIndex = 0;
+
+function typing() {
+  if (textIndex < text.length) {
+    if (letterIndex < text[textIndex].length) {
+      document.getElementById("typeText").innerHTML +=
+        text[textIndex].charAt(letterIndex);
+      letterIndex++;
+      setTimeout(typing, speed);
+    } else {
+      textIndex++;
+      letterIndex = 0;
+      if (textIndex < text.length) {
+        document.getElementById("typeText").innerHTML += "<br/>";
+        setTimeout(typing, speed);
+      }
+    }
+  }
+}
+
+typing();
+
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".morebtn");
   const containers = document.querySelectorAll(".container");
