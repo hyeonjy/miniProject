@@ -1,68 +1,65 @@
-.container {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 800px;
-  height: 1000px;
+.modal55 {
+  background-color: rgb(252, 231, 218);
+  width: 600px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+  border-radius: 30px;
 }
-.name,
-.favoriate {
+.name55,
+.favoriate55 {
   background-color: rgba(255, 191, 0);
-  border-radius: 20px;
-  width: 500px;
-  padding: 3px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  font-size: 20px;
-  position: relative;
-  top: -50px;
-  left: 10px;
-}
-.teamwork {
-  background-color: rgb(255, 218, 151);
-  border-radius: 20px;
-  width: 500px;
+  width: 300px;
+  height: 90px;
   padding: 10px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
+  margin: 20px;
+  border-radius: 30px;
   font-size: 20px;
-  position: relative;
-  top: -50px;
-  left: 10px;
-}
-#image {
-  width: 400px;
-  height: 400px;
   align-items: center;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -50px;
+  top: -90px;
   left: 80px;
 }
-.closebtn {
+.teamwork55 {
+  background-color: rgb(250, 214, 147);
+  width: 500px;
+  height: 200px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+  top: -80px;
+  left: 10px;
+}
+#image55 {
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  left: 10px;
+}
+#close55 {
   background-color: rgb(252, 185, 61);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  width: 80px;
-  height: 80px;
-  font-size: 18px;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
   margin-left: auto;
   position: relative;
-  top: 50px;
-  left: 80px;
-  padding: 27px 15px;
+  top: -250px;
+  left: 10px;
+  padding: 15px 5px;
 }
-.closebtn:hover {
+#close55:hover {
   background-color: rgb(255, 255, 255);
-  border: 10px solid black;
+  border: 1px solid black;
 }

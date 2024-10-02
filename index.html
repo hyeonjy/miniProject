@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<body>
+<div>
   <!-- nav 네비게이션 넣기 -->
   <header class="header" style="display: flex">
     <div class="header_logo">
@@ -168,7 +168,13 @@
       </div>
     </div>
   </div>
-
+  <div class="teamGoal">
+    <div class="teamGoal-title"><h1>귀여운 5조 팀 목표 </h1></div>
+    <div class=" teamGoal-main"> <p>귀여운 소개페이지를 시작으로 다양한 기능을 지닌 웹페이지를 제작하는 것이 목표입니다. <br>
+                공부량은 많겠지만 다양한 기능을 구현해봅시다. 귀여운 기능도요 <br>우리는 연결을 강화하고 공동체의식을 키우는 팀 빌딩 활동을 우선시하여 목표를 달성한 뿐만 아니라<br>
+                    우리팀의 귀엽고 사랑스러운 본질을 반영하여 긍정적인 영향을 미치는 작품을 만들수있습니다 
+    </p></div>
+ </div>
   <!-- 방명록 -->
   <h3 id="scroll3">방명록</h3>
   <div id="list"></div>
@@ -202,7 +208,7 @@
   <!--data-index 값을 넣어주세요!!! 밑에 예시 참조-->
   <div class="container hidden" data-index="1">
     <div class="modal-content">
-      <div class="closebtn xBtn">
+      <div class="closeBtn xBtn">
         <i class="fa-solid fa-x"></i>
       </div>
       <div class="modal-wrap">
@@ -250,35 +256,36 @@
   </div>
 
   <!-- 모달 2번째-->
-  <div class="container hidden" data-index="5">
-    <div class="modal-content">
-      <button class="closebtn">Close</button>
-      <image id="image"
+  <div class="container hidden pop_hansol55" data-index="5">
+    <div class="modal55">
+      <image id="image55"
         src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbODPjh%2FbtsJSpuwNzn%2FTEfuoL2InZJUgTn5utix2k%2Fimg.png">
       </image>
-      <div class="detail">
-        <div class="name">
-          <h2>이름</h2>
-          <div calss="name1"><span>최한솔(ENTJ)</span></div>
-        </div>
-        <div class="favoriate">
-          <h1>Favoriate</h1>
-          <div class="favoriate1">
-            <span>캠핑, 고양이, 등산, 러닝, 코딩, 술</span>
-          </div>
-        </div>
-        <div class="teamwork">
-          <h1>Teamwork</h1>
-          <div class="teamwork1">
-            <span>깨알처럼 공유하고 서로서로 도와주며 개개인이 서로를 이끌 줄
-              아는 마인드!<br />
-              스몰토크로 가볍게 긴장 풀 줄 아는 분위기 메이커!<br />
-              뒤처진 팀원에게 도움이 될 수 있도록 손을 내밀 줄 아는
-              팀원!</span>
-          </div>
+    
+    <div class="detail55">
+      <button class="xBtn" id="close55">Close</button>
+      <div class="name55">
+        <h2>이름</h2>
+        <div calss="name55">
+          <span>최한솔(ENTJ)</span>
         </div>
       </div>
+      <div class="favoriate55">
+        <h1>Favoriate</h1>
+        <span>캠핑, 고양이, 등산, 러닝, 코딩, 술</span>
+      </div>
+
+      <div class="teamwork55">
+        <h1>Teamwork</h1>
+        <span>깨알처럼 공유하고 서로서로 도와주며 개개인이 서로를 이끌 줄아는 마인드!<br />
+          스몰토크로 가볍게 긴장 풀 줄 아는 분위기 메이커!<br />
+          뒤처진 팀원에게 도움이 될 수 있도록 손을 내밀 줄 아는
+          팀원!
+        </span>
+      </div>
     </div>
+    </div>
+  </div>
   </div>
 
   <!-- 모달 3번째 -->
@@ -286,7 +293,7 @@
     <div class="pop_inner">
       <img src="css/iruka913.png" alt="돌고래 앰블럼" class="minjunemblem" />
       <div class="MJcard_wrapper">
-        <p class="mjname">1ruk@913 / 박민준</p>
+        <p class="mjname"></p><span class="cursor">|</span>
         <p class="mjmbti">MBTI : INFJ</p>
 
         <span
@@ -310,6 +317,7 @@
           선장보다는 노 젓는 사공이 더 어울리는 스타일.<br />그래도 시키는
           일은 하는 편인 만큼, 리더 시키면 하긴 합니다.
         </p>
+        <a href="https://irukasdevblog.tistory.com/" target="_blank" class="btn btn-dark rounded-pill px-3 btn_close xBtn">TISTORY</a>
         <button class="btn btn-danger rounded-pill px-3 btn_close xBtn" type="button">
           닫기
         </button>
@@ -365,6 +373,6 @@
   <script src="js/modal.js"></script>
   <script src="./js/scroll.js"></script>
   <script src="https://kit.fontawesome.com/493cc16663.js" crossorigin="anonymous"></script>
-</body>
+  </body>
 
 </html>
