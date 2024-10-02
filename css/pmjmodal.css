@@ -43,11 +43,29 @@
 }
 
 .mjname {
+  display: inline;
   position: relative;
   top: 50px;
   font-family: "Do Hyeon", system-ui;
   font-size: 50px;
   height: 50px;
+}
+
+.cursor {
+  position: relative;
+  top: 50px;
+  font-family: "Do Hyeon", system-ui;
+  font-size: 52px;
+  display: inline-block;
+  animation: blink 0.7s steps(1) infinite;
+  z-index: 500;
+  color: gray;
+}
+
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
 }
 
 #mjpreference {
@@ -96,7 +114,7 @@
 
 .btn_close {
   position: relative;
-  top: 100px;
+  top: 78px;
   font-family: "Do Hyeon", system-ui;
   font-size: 20px;
 }
