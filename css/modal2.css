@@ -1,46 +1,43 @@
 .modal55 {
   background-color: rgb(252, 231, 218);
-  width: 800px;
-  height: 900px;
+  width: 600px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
   border-radius: 30px;
 }
-
 .name55,
 .favoriate55 {
   background-color: rgba(255, 191, 0);
-  width: 500px;
-  height: 100px;
+  width: 300px;
+  height: 90px;
   padding: 10px;
-  margin: 12px;
+  margin: 20px;
   border-radius: 30px;
-  font-size: 23px;
+  font-size: 20px;
   align-items: center;
   display: flex;
   flex-direction: column;
   position: relative;
-  top: -80px;
-  left: 10px;
+  top: -90px;
+  left: 80px;
 }
-
 .teamwork55 {
   background-color: rgb(250, 214, 147);
   width: 500px;
-  height: 250px;
+  height: 200px;
   border-radius: 30px;
   padding: 10px;
-  font-size: 23px;
+  font-size: 20px;
   position: relative;
   top: -80px;
   left: 10px;
 }
-
 #image55 {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -48,22 +45,20 @@
   top: -30px;
   left: 10px;
 }
-
 #close55 {
   background-color: rgb(252, 185, 61);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   font-size: 20px;
   margin-left: auto;
   position: relative;
-  top: -350px;
-  left: 80px;
-  padding: 27px 15px;
+  top: -250px;
+  left: 10px;
+  padding: 15px 5px;
 }
-
 #close55:hover {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
