@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Hi+Melody&display=swap");
+.joara {
+  margin: revert-layer;
+}
+.arajo-body {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(241, 235, 228);
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  width: 330px;
+  height: 450px;
+  position: relative;
+  margin: 120px auto;
+}
+.ara_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.arapic {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+.ara {
+  font-size: 15px;
+  color: rgb(225, 138, 16);
+  font-weight: bold;
+  margin: 10px 0;
+}
+.container_ara {
+  float: none;
+  font-size: 25px;
+  text-align: center;
+}
+.close_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.ara_icon {
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.ara_icon a {
+  color: black;
+  text-decoration: none;
+}
+.modal_btn {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.modal_btn:hover {
+  box-shadow: 3px 4px 11px 0px #00000040;
+}
+.ara_modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+.ara_modal.on {
+  display: block;
+}
+.ara_modal .modal_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.ara_modal .modal_popup .close_btn {
+  display: block;
+  padding: 10px 20px;
+  background-color: rgb(116, 0, 0);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}

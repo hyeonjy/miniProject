@@ -88,6 +88,41 @@
   }
 }
 
+@keyframes blink1 {
+  0% {
+    color: #ff0000;
+  }
+  50% {
+    color: #00ff00;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
+
+@keyframes blink2 {
+  0% {
+    color: #ff00ff;
+  }
+  50% {
+    color: #ffff00;
+  }
+  100% {
+    color: #00ffff;
+  }
+}
+
+@keyframes blink3 {
+  0% {
+    color: #ffff00;
+  }
+  50% {
+    color: #ff69b4;
+  }
+  100% {
+    color: #ffff00;
+  }
+}
 .collaboration-wrap {
   margin-top: 35px;
   justify-content: space-between;
@@ -96,7 +131,7 @@
 }
 
 .collaboration-style {
-  background-color: #f6fa6f;
+  background-color: #f0f0f0;
   border-radius: 15px;
   padding: 6px 17px;
   display: flex;
@@ -107,6 +142,17 @@
 .collaboration-wrap h1 {
   text-align: center;
   font-size: 20px;
-  color: #0279ff;
   margin: 0;
+}
+
+.collaboration-style:nth-child(1) h1 {
+  animation: blink1 2s infinite;
+}
+
+.collaboration-style:nth-child(2) h1 {
+  animation: blink2 2s infinite;
+}
+
+.collaboration-style:nth-child(3) h1 {
+  animation: blink3 2s infinite;
 }
