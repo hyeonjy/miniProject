@@ -6,7 +6,9 @@
   flex-direction: column;
   align-items: center;
   margin: auto;
+  border-radius: 30px;
 }
+
 .name55,
 .favoriate55 {
   background-color: rgba(255, 191, 0);
@@ -23,6 +25,7 @@
   top: -80px;
   left: 10px;
 }
+
 .teamwork55 {
   background-color: rgb(250, 214, 147);
   width: 500px;
@@ -34,6 +37,7 @@
   top: -80px;
   left: 10px;
 }
+
 #image55 {
   width: 400px;
   height: 400px;
@@ -44,6 +48,7 @@
   top: -30px;
   left: 10px;
 }
+
 #close55 {
   background-color: rgb(252, 185, 61);
   border-radius: 30px;
@@ -58,7 +63,8 @@
   left: 80px;
   padding: 27px 15px;
 }
-.closebtn55:hover {
+
+#close55:hover {
   background-color: rgb(255, 255, 255);
-  border: 10px solid black;
+  border: 1px solid black;
 }
