@@ -1,7 +1,7 @@
 .modal55 {
   background-color: rgb(252, 231, 218);
   width: 600px;
-  height: 750px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,4 +62,12 @@
 #close55:hover {
   background-color: rgb(255, 255, 255);
   border: 1px solid black;
+}
+
+.vlog55{
+  font-size: 20px;
+  position: relative;
+  top: -80px;
+  left: 230px;
+  padding: 15px 5px;
 }
