@@ -20,6 +20,10 @@
   height: 85px;
 }
 
+#weather {
+  font-weight: bold;
+}
+
 .header_content {
   display: flex;
   align-items: center;
