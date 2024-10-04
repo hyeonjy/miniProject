@@ -107,3 +107,27 @@ h3 {
   margin: 20px;
   box-shadow: 0px 0px 20px black;
 }
+
+#visitIconBox {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
+.visitIcon:hover {
+  cursor: pointer;
+}
+
+.newcontent {
+  width: 700px;
+  height: 97px;
+}
+
+.editBtn {
+  width: 70px;
+  height: 97px;
+  background-color: #ffc007;
+  border: 1px solid white;
+  border-radius: 5px;
+}

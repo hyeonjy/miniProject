@@ -7,14 +7,15 @@ import {
   addDoc,
 } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 import {
+  doc,
   getDocs,
   serverTimestamp,
   query,
   orderBy,
+  where,
+  updateDoc,
 } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const API_KEY = config.apiKey;
 const AUTH_DOMAIN = config.authDomain;
 const PROJECT_ID = config.projectId;
@@ -32,29 +33,32 @@ const firebaseConfig = {
   appId: APP_ID,
   measurementId: MEASUREMENT_ID,
 };
-
 // Firebase 인스턴스 초기화
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-$("#visitBtn").click(async function () {
-  console.log("im in");
+//데이터 CREATE
+$("#visitForm").submit(async function (event) {
+  event.preventDefault();
   let content = $("#content").val();
   let name = $("#writer").val();
-  console.log("content: " + content);
-  console.log("name: " + name);
   let doc = {
     content: content,
     writer: name,
     timestamp: serverTimestamp(),
   };
 
-  await addDoc(collection(db, "visitor"), doc);
-  alert("등록완료!");
-  window.location.reload();
+  try {
+    await addDoc(collection(db, "visitor"), doc);
+    alert("등록완료!");
+    window.location.reload();
+  } catch (error) {
+    console.error("Error adding document: ", error);
+    alert("등록 실패: " + error.message);
+  }
 });
 
-// 데이터를 최신순으로 가져오기 위한 함수
+// (READ) 데이터를 최신순으로 가져오기 위한 함수
 async function loadVisitorLogs() {
   // timestamp로 최신 순으로 정렬된 데이터 쿼리
   const q = query(collection(db, "visitor"), orderBy("timestamp", "asc"));
@@ -70,17 +74,59 @@ async function loadVisitorLogs() {
     let content = row["content"];
     let writer = row["writer"];
 
-    let temp_html = `            
-            <form class="visitcard" name="f">
-                <table id="t1">
+    let temp_html = `
+          <div>            
+            <div class="visitcard" name="f">
+                <div id="table">
                     <h5 class="writer">${writer}</h5>
                     <p class="content">${content}</p>
-                </table>
-            </form>`;
+                </div>
+                <div id="visitIconBox">
+                  <i class="fa-solid fa-pen-to-square visitIcon" id="editIcon" style="margin-right: 7px"></i>
+                  <i class="fa-solid fa-trash visitIcon" id="deleteIcon"></i>
+                </div>
+                <form id="editForm" class="hidden">
+                  <input type="text" name="newcontent" class="newcontent" placeholder="내용을 입력해주세요."/>
+                  <button type="submit" class="editBtn">수정</button>
+                </form>
+              </div>
+            </div>
+            `;
 
     $("#list").append(temp_html);
   });
 }
+
+// UPDATE 방명록 편집
+$(document).on("click", "#editIcon", async function (event) {
+  let visitCard = $(event.target.parentElement.parentElement);
+  let table = visitCard.find("#table");
+  let visitBoxIcon = visitCard.find("#visitIconBox");
+  let editForm = visitCard.find("#editForm");
+  let writer = table.find(".writer").text();
+
+  table.addClass("hidden");
+  visitBoxIcon.addClass("hidden");
+  editForm.removeClass("hidden");
+
+  editForm.off("submit").on("submit", async function (event) {
+    event.preventDefault();
+
+    let newContent = editForm.find(".newcontent").val();
+
+    let queryRef = collection(db, "visitor");
+    let q = query(queryRef, where("writer", "==", writer));
+    let querySnapshot = await getDocs(q);
+
+    querySnapshot.forEach(async (d) => {
+      await updateDoc(doc(db, "visitor", d.id), {
+        content: newContent,
+      });
+      alert("수정완료!");
+      window.location.reload();
+    });
+  });
+});
 
 // 페이지가 로드될 때 방문 기록을 불러옴
 $(document).ready(function () {
