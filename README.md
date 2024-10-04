@@ -43,7 +43,7 @@
 
 ### (0) 네비게이션
 
-![title](https://github.com/user-attachments/assets/9524bf6e-51e8-47a1-871c-d3879915fb4f)   
+![title](https://github.com/user-attachments/assets/66d0dd04-ae4f-4829-9194-d90479d65f3c)   
 
 
 - 헤더에 있는 귀여운 고양이가 직접 날씨를 알려줍니다. 이 기능은 오픈 api를 받아와 제작되었으며, 브라우저의 위치 데이터를 참조하여, 사용자가 사는 지역에 따라 정확한 날씨를 받아볼 수 있습니다. 
