@@ -89,7 +89,7 @@
 
 | 이름 | 소감 |
 | --- | --- |
-| 팀장 김현지 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png) | 블라블라 |
+| 팀장 김현지 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png) | 처음에는 협업이 잘될까 고민되었는데 좋은 팀원분들 만나서 프로젝트 만드는 과정이 즐거웠습니다. 또한, 팀원들과 어떻게 의사소통하면서 맞춰나가야하는지 알아가는데 큰 도움이 되었습니다. 문제가 발생할때 우리는 서로 지식을 공유하여 해결책을 찾아냈고 팀원들과 어떻게 의사소통하며 맞춰나가야하는지 알아가는 좋은 시간이었습니다 . 팀원 모두가 역할을 너무나 잘해냈고, 그 덕분에 웹페이지가 귀엽게 나온것 같습니다. 이 팀과 함께 일하는 것이 정말 즐거웠습니다! |
 | 팀원 조아라 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)| 블라블라 |
 | 팀원 박민준 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png) | 블라블라 |
 | 팀원 최강건 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png) | 블라블라 |
