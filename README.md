@@ -15,6 +15,10 @@
 (3) 프로젝트 소개 : 팀원을 소개하는 웹페이지입니다.<br>
 (4) 개발기간 : 일주일
 
+| 팀장<br> 김현지|팀원<br> 조아라 |팀원<br> 박민준 |팀원<br> 최강건 |팀원<br> 최한솔| 팀원<br> 강란규|
+| ---|| ---|| ---|| ---|| ---|---|
+| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
+|팀원소개 MORE 모달 기능|nav/모달 html,css||헤더 아래의 배너 부분의 하드 코딩 및 스타일링||팀원 소개 CSS| 방명록|귀여운 팀의 목표
 
 [팀원 사진 및 MBTI, 기능]
 
