@@ -18,6 +18,9 @@
 ## 프로젝트 팀 발표 PPT 링크
 [⭐️우리팀을 소개합니다⭐️](https://www.miricanvas.com/v2/design/13qc7at)
 
+<br>
+
+## 팀원소개
 | 팀장<br> 김현지|팀원<br> 조아라 |팀원<br> 박민준 |팀원<br> 최강건 |팀원<br> 최한솔| 팀원<br> 강란규|
 |:---:|:---:| :---:|:---:|:---:|:---:|
 |ISTP|ESTJ|INFJ|ISFP|ENTJ|INTP|
