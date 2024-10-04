@@ -16,7 +16,7 @@
 (4) 개발기간 : 2024.09.30 ~ 2024.10.07
 
 ## 프로젝트 팀 발표 PPT 링크
-<a href="https://www.miricanvas.com/v2/design/13qc7at" target="_blank"> ⭐️귀엽조를 소개합니다⭐️ </a>
+<a href="https://www.miricanvas.com/v/13qc7at" target="_blank"> ⭐️귀엽조를 소개합니다⭐️ </a>
 
 <br>
 
