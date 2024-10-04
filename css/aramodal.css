@@ -1,13 +1,11 @@
 .ahrajo_content {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: 'Uiyeun';
   background-color: rgb(241, 235, 228);
   text-align: center;
   border-radius: 20px;
   padding: 20px;
-  width: 370px;
-  height: 510px;
+  width: 380px;
+  height: 530px;
   position: relative;
   margin: 70px auto;
   box-shadow: 2px 2px 2px 2px gray;
@@ -20,23 +18,20 @@
   border-radius: 50px;
 }
 .ara_name {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 900;
+  font-family: 'Uiyeun';
   font-style: normal;
   color: black;
-  font-size: 30px;
+  font-size: 45px;
 }
 .ara_content2 {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
+  font-family: 'Uiyeun';
+  font-size: 20px;
   color: black;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 0;
 }
 .ara_style {
-  font-family: "Gamja Flower", sans-serif;
+  font-family: 'Uiyeun';
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
