@@ -32,6 +32,7 @@
 - 화면구성 : 
 
 
+![20241004_104010](https://github.com/user-attachments/assets/cf317d9c-0505-4b23-83c6-60eabb92810b)
 
 
 
