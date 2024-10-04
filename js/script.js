@@ -17,7 +17,6 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 import { deleteDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
 
-
 const API_KEY = config.apiKey;
 const AUTH_DOMAIN = config.authDomain;
 const PROJECT_ID = config.projectId;
@@ -40,15 +39,15 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 //데이터 CREATE
-const visitbutton = document.getElementById('visitBtn');
-const inputnick = document.getElementById('writer');
-const inputcontent = document.getElementById('content');
+const visitbutton = document.getElementById("visitBtn");
+const inputnick = document.getElementById("writer");
+const inputcontent = document.getElementById("content");
 
 inputnick.addEventListener("keyup", submitbtn);
 inputcontent.addEventListener("keyup", submitbtn);
 
 function submitbtn() {
-  if(!(inputnick.value && inputcontent.value)) {
+  if (!(inputnick.value && inputcontent.value)) {
     visitbutton.disabled = true;
   } else {
     visitbutton.disabled = false;
@@ -134,35 +133,29 @@ $(document).on("click", "#editIcon", async function (event) {
   console.log(newEditContent.value);
   console.log(editBtn);
 
-  newEditContent.addEventListener("keyup", activeEditBtn);
-
-  function activeEditBtn() {
-    if((newEditContent.value)) {
-      editBtn.disabled = false;
-    } else {
-      editBtn.disabled = true;
-    }
-  }
-
-  activeEditBtn();
-  
   editForm.off("submit").on("submit", async function (event) {
     event.preventDefault();
 
     let newContent = editForm.find(".newcontent").val();
-    console.log(newContent);
-  
-    let queryRef = collection(db, "visitor");
-    let q = query(queryRef, where("writer", "==", writer));
-    let querySnapshot = await getDocs(q);
+    console.log("newcontent: " + newContent);
+    if (newContent) {
+      let newContent = editForm.find(".newcontent").val();
+      console.log(newContent);
 
-    querySnapshot.forEach(async (d) => {
-      await updateDoc(doc(db, "visitor", d.id), {
-        content: newContent,
+      let queryRef = collection(db, "visitor");
+      let q = query(queryRef, where("writer", "==", writer));
+      let querySnapshot = await getDocs(q);
+
+      querySnapshot.forEach(async (d) => {
+        await updateDoc(doc(db, "visitor", d.id), {
+          content: newContent,
+        });
+        alert("수정완료!");
+        window.location.reload();
       });
-      alert("수정완료!");
-      window.location.reload();
-    });
+    } else {
+      alert("내용을 채워주세요!");
+    }
   });
 });
 
@@ -175,22 +168,22 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(document).on("click", "#deleteIcon", async function (event) {
     let visitCard = $(event.target.parentElement.parentElement);
-    let writer = visitCard.find(".writer").text(); 
+    let writer = visitCard.find(".writer").text();
 
-    console.log("삭제하려는 작성자:", writer); 
+    console.log("삭제하려는 작성자:", writer);
 
     let queryRef = collection(db, "visitor");
     let q = query(queryRef, where("writer", "==", writer));
     let querySnapshot = await getDocs(q);
 
-    console.log("쿼리 결과:", querySnapshot); 
+    console.log("쿼리 결과:", querySnapshot);
 
     if (!querySnapshot.empty) {
       querySnapshot.forEach(async (d) => {
-        await deleteDoc(doc(db, "visitor", d.id)); 
-        console.log("삭제된 문서 ID:", d.id); 
+        await deleteDoc(doc(db, "visitor", d.id));
+        console.log("삭제된 문서 ID:", d.id);
         alert("삭제 완료!");
-        window.location.reload(); 
+        window.location.reload();
       });
     } else {
       alert("삭제할 방명록을 찾을 수 없습니다.");

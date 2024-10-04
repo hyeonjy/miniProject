@@ -1,5 +1,5 @@
 const text = ["더 나은 개발자가 되기 위해,", "꾸준히 노력하는 개발자"];
-const speed = 200;
+const speed = 100;
 let textIndex = 0;
 let letterIndex = 0;
 
@@ -21,8 +21,6 @@ function typing() {
   }
 }
 
-typing();
-
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll(".morebtn");
   const containers = document.querySelectorAll(".container");
@@ -32,6 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       //인덱스 확보
       const index = button.getAttribute("data-index");
+      if (Number(index) === 1) {
+        document.getElementById("typeText").innerHTML = "";
+        textIndex = 0;
+        letterIndex = 0;
+        typing();
+      }
 
       containers.forEach((container) => {
         if (container.getAttribute("data-index") === index) {
