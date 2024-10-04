@@ -19,7 +19,7 @@
 |:---:|:---:| :---:|:---:|:---:|:---:|
 |ISTP|ESTJ|INFJ|ISFP|ENTJ|INTP|
 | ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/3-279-35-419.png)   |![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
-|모달 , 방명록 UPDATE|nav/<br>방명록 DELETE|헤더 아래 배너의<br> 하드 코딩 및 스타일링|팀원 소개 CSS| 방명록 등록구현 |귀여운 팀의 목표|
+|모달 , 방명록 UPDATE|nav/<br>방명록 DELETE|헤더 아래 배너의<br> 하드 코딩 및 스타일링|팀원 소개 날씨 API| 방명록 등록구현 |귀여운 팀의 목표|
 |[@hyeonjy](https://github.com/hyeonjy)|[@joara](https://github.com/jo-a-ra)|[@minjun](https://github.com/DevIruka)|[@kangun](https://github.com/Choi-kanggun)|[@hansol](https://github.com/hansolChoi29)|[@rankyu](https://github.com/kangrankyu)
 
 ## 개발환경
