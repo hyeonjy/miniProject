@@ -105,8 +105,8 @@ async function loadVisitorLogs() {
                   <i class="fa-solid fa-trash visitIcon" id="deleteIcon"></i>
                 </div>
                 <form id="editForm" class="hidden">
-                  <input type="text" name="newcontent" id="eecontent" class="newcontent" placeholder="내용을 입력해주세요."/>
-                  <button type="submit" class="editBtn" id="eebtn">수정</button>
+                  <input type="text" name="newcontent" id="editcontent" class="newcontent" placeholder="내용을 입력해주세요."/>
+                  <button type="submit" class="editBtn" id="activebtn">수정</button>
                 </form>
               </div>
             </div>
@@ -118,6 +118,7 @@ async function loadVisitorLogs() {
 
 // UPDATE 방명록 편집
 $(document).on("click", "#editIcon", async function (event) {
+  event.preventDefault();
   let visitCard = $(event.target.parentElement.parentElement);
   let table = visitCard.find("#table");
   let visitBoxIcon = visitCard.find("#visitIconBox");
@@ -128,15 +129,15 @@ $(document).on("click", "#editIcon", async function (event) {
   visitBoxIcon.addClass("hidden");
   editForm.removeClass("hidden");
 
-  let editBtn = document.getElementById("eebtn");
-  let newContent = document.getElementById("eecontent");
-  console.log(newContent.value);
+  let editBtn = document.getElementById("activebtn");
+  let newEditContent = document.getElementById("editcontent");
+  console.log(newEditContent.value);
   console.log(editBtn);
 
-  newContent.addEventListener("keyup", activeEditBtn);
+  newEditContent.addEventListener("keyup", activeEditBtn);
 
   function activeEditBtn() {
-    if((newContent.value)) {
+    if((newEditContent.value)) {
       editBtn.disabled = false;
     } else {
       editBtn.disabled = true;
