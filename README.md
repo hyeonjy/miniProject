@@ -16,9 +16,9 @@
 (4) 개발기간 : 일주일
 
 | 팀장<br> 김현지|팀원<br> 조아라 |팀원<br> 박민준 |팀원<br> 최강건 |팀원<br> 최한솔| 팀원<br> 강란규|
-| ---|---| ---|---|---|---|
+|:---:|:---:| :---:|:---:|:---:|:---:|
 | ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
-| 팀원소개 MORE 모달 기능 | nav/모달 html,css| 헤더아래 배너의 하드코딩 및 스타일링 | 팀원 소개 CSS | 방명록 뎃글 등록하기 |귀여운 팀의 목표|
+|팀원소개 MORE <br>모달 기능|nav/<br>모달<br> html,css|헤더 아래 배너의<br> 하드 코딩 및 스타일링|팀원 소개 CSS| 방명록 등록구현 |귀여운 팀의 목표|
 
 ## 개발환경
 - environment : Visual Studio Code, git, github<br>
@@ -73,12 +73,15 @@
 - 각자의 모달에는 블로그로 향하는 링크가 a태그를 이용하여 첨부되어 있습니다. 
 
 ### (3) 방명록
-![title](https://github.com/user-attachments/assets/f1d83ef6-6abd-42d8-a1a0-958235400d7d)
+
+![title](https://github.com/user-attachments/assets/01c78251-9e94-47f8-b2cb-6e83bb6456c2)   
 >CRUD 기능이 구현된 방명록.
 
 - 방명록에 팀 소개 페이지에 저희 페이지에 방문한 사람들이 글을 남길 수 있도록 하였습니다. 또한, 방명록으로 쓴 글은 수정 및 삭제가 가능합니다. 
 
 - 방명록에 쓴 글은 파이어베이스 데이터베이스에 저장되며, 파이어베이스의 키는 철저하게 암호화되어 악용을 방지하였습니다. 
+
+- 방명록의 글은 최신 순서대로 파이어베이스의 타임스탬프 기능을 이용하여 오름차순으로 정렬되어 있습니다. 
 
 ## 프로젝트 종료 후 팀원들의 소감
 
