@@ -49,7 +49,7 @@
 
 ## 구현기능
 
-### (0) 네비게이션
+### (0) 네비게이션 및 날씨API
 
 ![title](https://github.com/user-attachments/assets/66d0dd04-ae4f-4829-9194-d90479d65f3c)   
 
