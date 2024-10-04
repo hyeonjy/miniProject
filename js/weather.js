@@ -18,7 +18,7 @@ const getWeather = (lat, lon) => {
     ).then((res) => {
         return res.json();
     }).then((json) => {
-        weatherImage("Rain")
+        weatherImage(json.weather[0].main)
     })
 }
 
