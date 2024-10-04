@@ -16,7 +16,7 @@
 (4) 개발기간 : 2024.09.30 ~ 2024.10.07
 
 ## 프로젝트 팀 발표 PPT 링크
-[⭐️귀엽조를 소개합니다⭐️](https://www.miricanvas.com/v2/design/13qc7at){:target="_blank"}
+<a href="https://www.miricanvas.com/v2/design/13qc7at" target="_blank"> ⭐️귀엽조를 소개합니다⭐️ </a>
 
 <br>
 
@@ -26,7 +26,7 @@
 |ISTP|ESTJ|INFJ|ISFP|ENTJ|INTP|
 | ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/3-279-35-419.png)   |![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
 |모달 , 방명록 UPDATE|nav/<br>방명록 DELETE|헤더 아래 배너의<br> 하드 코딩 및 스타일링|팀원 소개, 날씨 API| 방명록 등록구현 |귀여운 팀의 목표|
-|[@hyeonjy](https://github.com/hyeonjy){:target="_blank"}|[@joara](https://github.com/jo-a-ra){:target="_blank"}|[@minjun](https://github.com/DevIruka){:target="_blank"}|[@kanggun](https://github.com/Choi-kanggun){:target="_blank"}|[@hansol](https://github.com/hansolChoi29){:target="_blank"}|[@rankyu](https://github.com/kangrankyu){:target="_blank"}
+|[@hyeonjy](https://github.com/hyeonjy)|[@joara](https://github.com/jo-a-ra)|[@minjun](https://github.com/DevIruka)|[@kanggun](https://github.com/Choi-kanggun)|[@hansol](https://github.com/hansolChoi29)|[@rankyu](https://github.com/kangrankyu)
 
 ## 개발환경
 - environment : Visual Studio Code, git, github<br>
