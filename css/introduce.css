@@ -22,7 +22,7 @@
 .member-card {
   padding: 20px;
   width: 340px;
-  height: 200px;
+  height: 195px;
   margin-bottom: 50px;
   border: 1px solid gray;
   border-radius: 5px;
@@ -34,10 +34,11 @@
 }
 
 .user-image {
-  padding: 0px 10px 20px 0px;
+  padding: 0px 10px 60px 0px;
 }
 
 .card-content {
+  height: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,6 +47,7 @@
 .user-content {
   width: 100%;
   padding-right: 10px;
+  height:100px
 }
 
 .user-mbti {
