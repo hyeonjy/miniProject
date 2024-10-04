@@ -20,7 +20,7 @@
 |ISTP|ESTJ|INFJ|ISFP|ENTJ|INTP|
 | ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/3-279-35-419.png)   |![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
 |팀원소개 MORE <br>모달 기능|nav/<br>모달<br> html,css|헤더 아래 배너의<br> 하드 코딩 및 스타일링|팀원 소개 CSS| 방명록 등록구현 |귀여운 팀의 목표|
-|https://www.miricanvas.com/v/13qc7at|https://github.com/jo-a-ra|https://github.com/DevIruka|https://github.com/Choi-kanggun|https://github.com/hansolChoi29|https://github.com/kangrankyu|
+|https://github.com/hyeonjy|https://github.com/jo-a-ra|https://github.com/DevIruka|https://github.com/Choi-kanggun|https://github.com/hansolChoi29|https://github.com/kangrankyu|
 
 ## 개발환경
 - environment : Visual Studio Code, git, github<br>
