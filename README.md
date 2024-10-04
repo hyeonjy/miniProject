@@ -48,7 +48,7 @@
 
 - 헤더에 있는 귀여운 고양이가 직접 날씨를 알려줍니다. 이 기능은 오픈 api를 받아와 제작되었으며, 브라우저의 위치 데이터를 참조하여, 사용자가 사는 지역에 따라 정확한 날씨를 받아볼 수 있습니다. 
 
-![title](https://github.com/user-attachments/assets/f1c7f1d5-139c-40af-ad2e-3dce8cc0e6dc)   
+![title](https://github.com/user-attachments/assets/912385eb-0298-4166-81df-f598b876af2c)   
 
 - 헤더에 네비게이트 기능을 구현하여, 쉽고 빠르게 사용자가 원하는 구역으로 갈 수 있습니다. 
 
