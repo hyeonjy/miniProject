@@ -18,7 +18,7 @@
 | 팀장<br> 김현지|팀원<br> 조아라 |팀원<br> 박민준 |팀원<br> 최강건 |팀원<br> 최한솔| 팀원<br> 강란규|
 | ---|---| ---|---|---|---|
 | ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png)| ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)|![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)|
-| 팀원소개 MORE 모달 기능 | nav/모달 html,css| 헤더아래 배너의 하드코딩 및 스타일링 | 팀원 소개 CSS | 방명록 |귀여운 팀의 목표|
+| 팀원소개 MORE 모달 기능 | nav/모달 html,css| 헤더아래 배너의 하드코딩 및 스타일링 | 팀원 소개 CSS | 방명록 뎃글 등록하기 |귀여운 팀의 목표|
 
 ## 개발환경
 - environment : Visual Studio Code, git, github<br>
