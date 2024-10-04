@@ -15,6 +15,8 @@ import {
   where,
   updateDoc,
 } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+import { deleteDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+
 
 const API_KEY = config.apiKey;
 const AUTH_DOMAIN = config.authDomain;
@@ -25,13 +27,13 @@ const APP_ID = config.appId;
 const MEASUREMENT_ID = config.measurementId;
 
 const firebaseConfig = {
-  apiKey: API_KEY,
-  authDomain: AUTH_DOMAIN,
-  projectId: PROJECT_ID,
-  storageBucket: STORAGE_BUCKET,
-  messagingSenderId: MESSAGING_SENDER_ID,
-  appId: APP_ID,
-  measurementId: MEASUREMENT_ID,
+  apiKey: config.apiKey,
+  authDomain: config.authDomain,
+  projectId: config.projectId,
+  storageBucket: config.storageBucket,
+  messagingSenderId: config.messagingSenderId,
+  appId: config.appId,
+  measurementId: config.measurementId,
 };
 // Firebase 인스턴스 초기화
 const app = initializeApp(firebaseConfig);
@@ -130,5 +132,34 @@ $(document).on("click", "#editIcon", async function (event) {
 
 // 페이지가 로드될 때 방문 기록을 불러옴
 $(document).ready(function () {
+  loadVisitorLogs();
+});
+
+// 방명록 삭제
+$(document).ready(function () {
+  $(document).on("click", "#deleteIcon", async function (event) {
+    let visitCard = $(event.target.parentElement.parentElement);
+    let writer = visitCard.find(".writer").text(); 
+
+    console.log("삭제하려는 작성자:", writer); 
+
+    let queryRef = collection(db, "visitor");
+    let q = query(queryRef, where("writer", "==", writer));
+    let querySnapshot = await getDocs(q);
+
+    console.log("쿼리 결과:", querySnapshot); 
+
+    if (!querySnapshot.empty) {
+      querySnapshot.forEach(async (d) => {
+        await deleteDoc(doc(db, "visitor", d.id)); 
+        console.log("삭제된 문서 ID:", d.id); 
+        alert("삭제 완료!");
+        window.location.reload(); 
+      });
+    } else {
+      alert("삭제할 방명록을 찾을 수 없습니다.");
+    }
+  });
+
   loadVisitorLogs();
 });
