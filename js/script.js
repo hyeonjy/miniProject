@@ -40,6 +40,23 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 //데이터 CREATE
+const visitbutton = document.getElementById('visitBtn');
+const inputnick = document.getElementById('writer');
+const inputcontent = document.getElementById('content');
+
+inputnick.addEventListener("keyup", submitbtn);
+inputcontent.addEventListener("keyup", submitbtn);
+
+function submitbtn() {
+  if(!(inputnick.value && inputcontent.value)) {
+    visitbutton.disabled = true;
+  } else {
+    visitbutton.disabled = false;
+  }
+}
+
+submitbtn();
+
 $("#visitForm").submit(async function (event) {
   event.preventDefault();
   let content = $("#content").val();
@@ -88,8 +105,8 @@ async function loadVisitorLogs() {
                   <i class="fa-solid fa-trash visitIcon" id="deleteIcon"></i>
                 </div>
                 <form id="editForm" class="hidden">
-                  <input type="text" name="newcontent" class="newcontent" placeholder="내용을 입력해주세요."/>
-                  <button type="submit" class="editBtn">수정</button>
+                  <input type="text" name="newcontent" id="eecontent" class="newcontent" placeholder="내용을 입력해주세요."/>
+                  <button type="submit" class="editBtn" id="eebtn">수정</button>
                 </form>
               </div>
             </div>
@@ -111,11 +128,29 @@ $(document).on("click", "#editIcon", async function (event) {
   visitBoxIcon.addClass("hidden");
   editForm.removeClass("hidden");
 
+  let editBtn = document.getElementById("eebtn");
+  let newContent = document.getElementById("eecontent");
+  console.log(newContent.value);
+  console.log(editBtn);
+
+  newContent.addEventListener("keyup", activeEditBtn);
+
+  function activeEditBtn() {
+    if((newContent.value)) {
+      editBtn.disabled = false;
+    } else {
+      editBtn.disabled = true;
+    }
+  }
+
+  activeEditBtn();
+  
   editForm.off("submit").on("submit", async function (event) {
     event.preventDefault();
 
     let newContent = editForm.find(".newcontent").val();
-
+    console.log(newContent);
+  
     let queryRef = collection(db, "visitor");
     let q = query(queryRef, where("writer", "==", writer));
     let querySnapshot = await getDocs(q);

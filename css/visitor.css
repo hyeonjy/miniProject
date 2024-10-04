@@ -53,9 +53,8 @@ h5 {
   flex-direction: column;
 }
 
-h3 {
+#scroll4 {
   margin: 100px;
-  font-size: 50px;
 }
 .visitcard {
   border: 1px solid;

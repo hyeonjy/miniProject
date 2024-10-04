@@ -14,7 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap");
 @import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Uiyeun.woff");
-@import "teamgoal.css";
+@import "./teamgoal.css";
 @import "modal6.css";
 
 @font-face {
