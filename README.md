@@ -91,5 +91,5 @@
 | 팀원 조아라 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/3-279-35-419.png)| 블라블라 |
 | 팀원 박민준 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png) | 처음 진행해보는 협업이어서 잘 될 지 어떨지 너무 불확실해서 불안도 많았지만, 코딩에 능한 팀원들이 있어서 작업하기 편했습니다. 기반 코드들을 비롯하여 firebase의 api키를 보이지 않게 해야한다는 점이라든지, cr까지만 구현한 기능에 ud를 추가하는 법 등등을 배우면서 크게 성장할 수 있게 된 거 같습니다. 만들어진 페이지 역시 만족스럽습니다. 많이 배우고 갑니다. |
 | 팀원 최강건 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png) | 블라블라 |
-| 팀원 최한솔 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)| 블라블라 |
+| 팀원 최한솔 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)| 내가 알고있는 지식은 한계가 있다는 걸 알기에 두려웠지만, 부딪혀보면 성장하지 않을까란 작은 기대심이 있었다. 협업은 처음인지라 어떻게 진행하는 건지 감이 안왔는데 crud를 분배하여 코드를 생성하였고 github에 git명령어를 입력해가며 난생 처음으로 협업할 수 있는 시간을 가질 수 있었다. 내가 할 수 있는 선에서 하되 모르는 부분은 여쭤보며 코드를 작성하였고 문제가 발생하면 서로 도와주며 같이 해결하는 모습이 보기 좋았다. 공부하는 분위기를 쉽게 조성할 수 있던 이유는 좋은 팀원분들을 만났기 때문이며 모달, 내비게이션 등 다양한 기능구현을 알게 된 계기가 되었다.  |
 | 팀원 강란규 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)| 블라블라 |
