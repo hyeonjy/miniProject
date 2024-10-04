@@ -39,7 +39,7 @@
 
 
 
-## 5. 구현기능
+## 구현기능
 
 ### (0) 네비게이션
 
@@ -72,4 +72,23 @@
 
 - 각자의 모달에는 블로그로 향하는 링크가 a태그를 이용하여 첨부되어 있습니다. 
 
+### (3) 방명록
+![title](https://github.com/user-attachments/assets/f1d83ef6-6abd-42d8-a1a0-958235400d7d)
+>CRUD 기능이 구현된 방명록.
 
+- 방명록에 팀 소개 페이지에 저희 페이지에 방문한 사람들이 글을 남길 수 있도록 하였습니다. 또한, 방명록으로 쓴 글은 수정 및 삭제가 가능합니다. 
+
+- 방명록에 쓴 글은 파이어베이스 데이터베이스에 저장되며, 파이어베이스의 키는 철저하게 암호화되어 악용을 방지하였습니다. 
+
+## 프로젝트 종료 후 팀원들의 소감
+
+
+
+| 이름 | 소감 |
+| --- | --- |
+| 팀장 김현지 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-408-12-86.png) | 블라블라 |
+| 팀원 조아라 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png)| 블라블라 |
+| 팀원 박민준 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-206-63-433.png) | 블라블라 |
+| 팀원 최강건 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/2-517-12-433.png) | 블라블라 |
+| 팀원 최한솔 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/7-61-56-61.png)| 블라블라 |
+| 팀원 강란규 ![title](https://cdn-static.zep.us/static/assets/baked-avartar-images/1-543-36-21.png)| 블라블라 |
