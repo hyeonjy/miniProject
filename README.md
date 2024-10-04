@@ -6,9 +6,13 @@ MINIPROJECT: 5조 귀엽조?
 
 0. 프로젝트 소개
 
-1. Contributor
 
-2. 사용기술
+![20241004_092203](https://github.com/user-attachments/assets/5443b688-bd6a-438c-af11-f81ff6bcc659)
+
+
+2. Contributor
+
+3. 사용기술
 
 
 기획설계
