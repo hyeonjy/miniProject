@@ -61,4 +61,4 @@
 ![title](https://github.com/user-attachments/assets/d4ee87ab-1014-479f-95f7-a3ee5b8698a8)   
 
 - 각자의 모달에는 블로그로 향하는 링크가 a태그를 이용하여 첨부되어 있으며, 닫기 버튼을 누를 시 초기 화면으로 돌아오게끔 되어 있습니다. 
-
+### (3) 방명록
