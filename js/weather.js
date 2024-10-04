@@ -1,4 +1,4 @@
-const weather = document.getElementById('weather')
+const weatherId = document.getElementById('weather')
 
 const success = (position) => {
     const latitude = position.coords.latitude;
@@ -18,6 +18,17 @@ const getWeather = (lat, lon) => {
     ).then((res) => {
         return res.json();
     }).then((json) => {
-        weather.innerText = json.weather[0].description;
+        weatherImage("Rain")
     })
+}
+
+const weatherImage = function (weather) {
+    const weatherList = [
+        "Clouds",
+        "Rain",
+        "Snow",
+        "Thunderstorm"
+    ];
+    weather = weatherList.includes(weather) ? weather : "Clear";
+    document.getElementById('weathericon').src=`./img/${weather}.png`
 }
